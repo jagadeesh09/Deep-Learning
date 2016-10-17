@@ -26,5 +26,9 @@ def softmax(x):
     """ X is a two dimensional tensor and it calculates row wise"""
               
     return T.nnet.softmax(x)
+ 
+def linear(x):
+              
+    return x
               
 
