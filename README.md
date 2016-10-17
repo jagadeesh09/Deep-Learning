@@ -1,2 +1,2 @@
 # Neuron
-Neuron is a python code bank for implementing Convolutional Neural Networks
+Neuron is a library to build and train neural networks in python.
