@@ -30,3 +30,5 @@ def rotate2d(image, angle = None, resize=False):
 def rotate3d():
                           
      
+def random_patches(image,num_patches=1,patch_size=200):
+                          
