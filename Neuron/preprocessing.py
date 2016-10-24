@@ -2,8 +2,8 @@
 
 
 import skimage
-
-
+from PIL import Image
+import scipy.misc as m
 """ This python includes all the preprocessing requirements for images using skimage"""
 
 
@@ -54,3 +54,9 @@ def rotate3d(image,angle=None,resize=False):
      
 def random_patches(image,num_patches=1,patch_size=200):
                           
+def resize(image,shape=None):
+    if(shape == None):
+        return image
+    else:
+        image = m.imresize(image,shape)
+        return image
